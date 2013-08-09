@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cik.FS.WebApp", "WebApp\Cik.FS.WebApp\Cik.FS.WebApp.csproj", "{6213FE1F-D249-427B-93C0-89BDA6E447BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D69D6DE5-6F3E-4D55-847A-88C7751CDFD3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{372518A0-EFF5-41DD-B227-C489407D8065}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0C30F592-237C-4427-8C35-542254B5E003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityAccessContext", "IdentityAccessContext", "{C3DF71F4-2427-4347-B8BA-3DB4315150DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballManagementContext", "FootballManagementContext", "{EC92535C-DE42-4E30-A5B0-6B28CD828EDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sharplite", "Sharplite", "{D2F1BED7-2400-4E7C-9C96-A9BD287BA603}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C15DC4BC-B40B-4FFE-B69F-88EC219197DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".unit-testings", ".unit-testings", "{0EC5FE12-E0C1-4FC6-9AB1-CB217BB39777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cik.FS.WebApp.Tests", "UnitTestings\Cik.FS.WebApp.Tests\Cik.FS.WebApp.Tests.csproj", "{C7C8E618-E47B-4513-875B-0A0573B6D387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6213FE1F-D249-427B-93C0-89BDA6E447BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6213FE1F-D249-427B-93C0-89BDA6E447BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6213FE1F-D249-427B-93C0-89BDA6E447BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6213FE1F-D249-427B-93C0-89BDA6E447BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C8E618-E47B-4513-875B-0A0573B6D387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C8E618-E47B-4513-875B-0A0573B6D387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C8E618-E47B-4513-875B-0A0573B6D387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C8E618-E47B-4513-875B-0A0573B6D387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7C8E618-E47B-4513-875B-0A0573B6D387} = {0EC5FE12-E0C1-4FC6-9AB1-CB217BB39777}
+		{D2F1BED7-2400-4E7C-9C96-A9BD287BA603} = {0C30F592-237C-4427-8C35-542254B5E003}
+		{C15DC4BC-B40B-4FFE-B69F-88EC219197DD} = {0C30F592-237C-4427-8C35-542254B5E003}
+	EndGlobalSection
+EndGlobal

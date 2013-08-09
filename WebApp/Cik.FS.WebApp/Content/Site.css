@@ -51,10 +51,10 @@ input[type="checkbox"].input-validation-error {
 }
 
 .league-table th {
-    background-color: #333333;
+    background-color: #F7F5FA;
     border-bottom: 1px solid #666666;
     border-top: 1px solid #666666;
-    color: #CCCCCC;
+    color: #716B7A;
     height: 22px;
     text-align: left;
 }
@@ -81,8 +81,8 @@ th .league, th .date {
 }
 
 .league-table .league a {
-    color: #CCCCCC;
-    text-decoration: underline;
+    color: #716B7A;
+    /* text-decoration: underline;  */
 }
 
 .fs {

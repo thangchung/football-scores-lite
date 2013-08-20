@@ -24,3 +24,9 @@ Front-end:
     The ASP.NET Web API
     SignalR
     Angularjs
+
+Author
+========================================
+Email: thangchung@ymail.com
+Blog: (http://weblogs.asp.net/thangchung/)
+Twitter: @thangchung
